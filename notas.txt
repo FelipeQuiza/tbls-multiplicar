@@ -38,6 +38,6 @@ facilmente con una linea de comando.
     git commit - m "Mensaje" // Hace el respaldo con un mensaje
 
 Pendiente GitHub para un respaldo en la nube
----------------Sección Terminada---------------
+---------------Sección 4 Terminada---------------
 
 
