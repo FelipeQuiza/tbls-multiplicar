@@ -1,0 +1,35 @@
+Requerir información de otros archivos
+Requerir paquetes
+Importar archivos personalizados
+NPM
+Install
+Uninstall
+Package.json
+Yargs
+Recibir parámetros por línea de comando
+Colores para la consola
+
+------------------------------------------------------
+
+console.clear() Limpia la consola antes de mostrar lo que indiquemos.
+
+FileSystem Permite manipular directorios del servidor(Crear, escribir, actualizar, eliminar, renombrar ...)
+
+process.argv es un arreglo que almacena los parámetros que se indiquen por la linea de comandos.
+El paquete Yargs hace lo mismo pero de una forma mas optimizada y con más funcionalidades.
+`npm install yargs`
+Hay que requerir el argv de Yargs
+const argv = require("yargs").argv
+
+Para instalar paquetes es necesario tener el package.json y si no se ha elaborado de forma manual,
+se puede hacer con el comando `npm init -y` el cual inicia un proyecto node y es lo primero que tenemos
+que hacer a la hora de crear un proyecto node de cero.
+
+colors -> Es un paquete que le dá color y algunos formatos a las letra que hay en la consola de nuestra aplicación.
+`npm install colors`
+
+Para mantener el archivo principal lo más limpio posible se separa la configuración de YARGS en un archivo aparte.
+
+Git-> Respaldo local del proyecto
+Crear un archivo llamado .gitignore para descartar todo lo que no se quiera respaladar o que se pueda restaurar
+facilmente con una linea de comando.
