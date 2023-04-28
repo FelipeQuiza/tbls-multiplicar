@@ -2,10 +2,12 @@
 
 -Tener instalado NODE.js
 
--Descargar los módulos necesarios para el funcionamiento de la app
+-Descargar los módulos necesarios para el funcionamiento de la app:
+
     'npm intall'
 
 -Correr la app con el comando.
+
     'node app.js -b 0 -m true -l 0'
     Obligatorio mandar el primer parámetro -b numeroX
 
