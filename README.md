@@ -6,9 +6,10 @@
 
     'npm intall'
 
--Correr la app con el comando.
+-Correr la app con el comando:
 
     'node app.js -b 0 -m true -l 0'
+    
     Obligatorio mandar el primer parámetro -b numeroX
 
 Opciones:
