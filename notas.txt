@@ -38,6 +38,18 @@ facilmente con una linea de comando.
     git commit - m "Mensaje" // Hace el respaldo con un mensaje
 
 Pendiente GitHub para un respaldo en la nube
+Obligatorio tener una cuenta en Git GitHub. Una vez iniciado sesión crear un repositorio nuevo con los valores por defecto.
+
+Copiar las tres lineas de código que nos sugieren en la parte de abajo y ejecutarlas en la terminal para que se creen las 
+configuraciones y nos pemita subir cambios facilmente.
+    git remote add origin https://github.com/FelipeQuiza/tbls-multiplicar.git
+>>  git branch -M main
+>>  git push -u origin main
+
+Respaldar localmente con los los comandos add . y commit -m.
+
+Subirlo a Git Hub con el comando push.
+
 ---------------Sección 4 Terminada---------------
 
 
